@@ -4,6 +4,10 @@ from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Webアプリの概要・操作説明
 st.title("LLM専門家相談アプリ")
 st.write("""
