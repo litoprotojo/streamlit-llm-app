@@ -37,7 +37,6 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-streamlit
-langchain
-langchain-openai
-openai
+langchain==0.2.16
+langchain-openai==0.1.7
+openai==1.51.0
